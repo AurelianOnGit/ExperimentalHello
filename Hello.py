@@ -12,5 +12,7 @@ def checkString():
             print("Your name is too long")
          elif (len(name) == 0):
             print("Your name cannot be blank")
+         else :
+            return name
 
 main()
